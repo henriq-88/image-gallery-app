@@ -4,7 +4,7 @@ Based on the [T3 Stack](https://create.t3.gg/), built a simple image gallery bui
 
 ## 🚀 Tech Stack
 
-- [Next.js](https://nextjs.org) - React framework for server-side rendering and that simplifies routing, endpoint generation, and more.
+- [Next.js](https://nextjs.org) - React framework for server-side rendering and that simplifies routing, endpoint generation.
 - [SQLite](https://www.sqlite.org/) - Lightweight relational database.
 - [Drizzle](https://orm.drizzle.team) - Type-safe database queries.
 - [Tailwind CSS](https://tailwindcss.com) - Utility-first CSS framework.
@@ -27,7 +27,13 @@ Based on the [T3 Stack](https://create.t3.gg/), built a simple image gallery bui
 npm install
 ```
 
-2. Set up the database:
+2. Setup ENV variables
+
+```sh
+cp .env.example .env
+```
+
+3. Set up the database:
 
 ```sh
 npm run db:generate
@@ -35,7 +41,7 @@ npm run db:generate
 npm run db:push
 ```
 
-3. Run the development server:
+4. Run the development server:
 
 ```sh
 npm run dev

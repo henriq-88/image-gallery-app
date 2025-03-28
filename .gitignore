@@ -18,6 +18,9 @@ db.sqlite
 /out/
 next-env.d.ts
 
+# uploaded images
+/public/uploads/
+
 # production
 /build
 
